@@ -154,6 +154,24 @@ footer a:hover {
   color: white;
 }
 
+.project-info {
+    font-size: 1.2em; /* Increase text size */
+}
+
+.languages {
+    display: flex;
+    align-items: center; /* Center icons vertically */
+    margin-left: 5px; /* Space between description and icons */
+}
+
+.languages i {
+    margin-right: 3px; /* Adjust this value to increase spacing between icons */
+}
+
+.text-center {
+    text-align: center; /* Center-align text in the container */
+}
+
 @media screen and (max-width: 600px) {
   .container {
     overflow-x: hidden;
